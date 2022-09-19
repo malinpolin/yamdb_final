@@ -31,4 +31,3 @@ services:
 volumes:
   static_value:
   media_value:
-  ./nginx/default.conf:
