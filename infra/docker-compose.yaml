@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.8'
 
 services:
   db:
@@ -9,7 +9,7 @@ services:
       - ./.env
   
   web:
-    image: malinpolin/yamdb_final:latest
+    image: malinpolin/yamdb_final
     restart: always
     volumes:
       - static_value:/app/static/
