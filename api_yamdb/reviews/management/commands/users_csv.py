@@ -2,10 +2,9 @@ import csv
 import os
 import sys
 
+from accounts.models import User
 from django.conf import settings
 from django.core.management.base import BaseCommand
-
-from accounts.models import User
 
 users = os.path.join(settings.CSV_FILES_DIR, "users.csv")
 

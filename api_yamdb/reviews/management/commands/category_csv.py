@@ -4,7 +4,6 @@ import sys
 
 from django.conf import settings
 from django.core.management.base import BaseCommand
-
 from reviews.models import Category
 
 category = os.path.join(settings.CSV_FILES_DIR, "category.csv")
