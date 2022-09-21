@@ -10,4 +10,6 @@ COPY api_yamdb/ /app
 
 WORKDIR /app
 
+COPY entrypoint.sh /app
+
 CMD ["/bin/bash", "./entrypoint.sh"]
