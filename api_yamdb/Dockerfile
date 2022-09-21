@@ -9,4 +9,6 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY ./ /app
 
-CMD ["/bin/bash", "/entrypoint.sh"]
+COPY entrypoint.sh /app
+
+CMD ["/bin/bash", "./entrypoint.sh"]
