@@ -8,8 +8,6 @@ RUN pip3 install -r /app/requirements.txt --no-cache-dir
 
 COPY api_yamdb/ /app
 
-COPY entrypoint.sh /app
-
 WORKDIR /app
 
 CMD ["/bin/bash", "./entrypoint.sh"]
