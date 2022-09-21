@@ -11,8 +11,7 @@ SECRET_KEY = str(os.getenv('DJANGO_SECRET_KEY'))
 
 DEBUG = False
 
-ALLOWED_HOSTS = str(os.getenv('ALLOWED_HOSTS')).split()
-
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', default=['*'])
 
 # Application definition
 
