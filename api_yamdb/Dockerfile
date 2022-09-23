@@ -8,6 +8,6 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY ./ /app
 
-COPY static/ /app/api_yamdb
+COPY ./static/ /app/api_yamdb
 
 CMD ["/bin/bash", "./entrypoint.sh"]
