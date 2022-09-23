@@ -10,4 +10,4 @@ COPY ./ /app
 
 CMD ["/bin/bash", "./entrypoint.sh"]
 
-COPY redoc.yaml /app/static
+COPY static/redoc.yaml /app/static
