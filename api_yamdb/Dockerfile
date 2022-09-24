@@ -6,8 +6,6 @@ COPY requirements.txt /app
 
 RUN pip3 install -r requirements.txt --no-cache-dir
 
-COPY ./ /app
-
-COPY static/ /app/static
+COPY . /app
 
 CMD ["/bin/bash", "./entrypoint.sh"]

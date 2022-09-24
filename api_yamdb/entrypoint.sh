@@ -6,6 +6,5 @@ then
     python manage.py createsuperuser --noinput \
         --username $DJANGO_SUPERUSER_USERNAME \
         --email $DJANGO_SUPERUSER_EMAIL \
-        --password $DJANGO_SUPERUSER_PASSWORD
 fi
 gunicorn api_yamdb.wsgi:application --bind 0:8000
