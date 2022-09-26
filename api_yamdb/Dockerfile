@@ -8,6 +8,6 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY . /app
 
-COPY static/redoc.yaml /static
+COPY static/redoc.yaml static/redoc.yaml
 
 CMD ["/bin/bash", "./entrypoint.sh"]
