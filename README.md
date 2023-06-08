@@ -1,7 +1,5 @@
 ![yamdb workflow](https://github.com/malinpolin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-API развернут по адресу http://158.160.5.214/api/v1/
-
 # CI и CD проекта api_yamdb.
 
 ## Описание
